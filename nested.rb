@@ -109,7 +109,7 @@ def changing_alan
         :languages => ["C"]
       }
     }
-    
+    epic_tragedy [:capulet][:heroine][:status] = "dead"
 
 end
 
