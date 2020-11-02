@@ -59,11 +59,6 @@ programmer_hash [:dennis_ritchie][:languages][0]
 end
 
 def adding_matz
-  
-  	programmer_hash [] = []
-  	{:languages => {"LISP", "C"}
-  	programmer_hash [:yukihiro_matsumoto] << "LISP"
-	programmer_hash [:yukihiro_matsumoto] << "C"
 
 # add the following information to the top level of programmer_hash
 # :yukihiro_matsumoto => {
@@ -77,10 +72,8 @@ def adding_matz
  		{
  		  :yukihiro_matsumoto => {
  		    :known_for => "languages",
-        :languages => ["COBOL", "FORTRAN"]
- 		  }
- 		  
- 		  
+        :languages => ["LISP", "C"]
+ 		  },
       :grace_hopper => {
         :known_for => "COBOL",
         :languages => ["COBOL", "FORTRAN"]
